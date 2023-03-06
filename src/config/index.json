@@ -1,7 +1,7 @@
 {
   "company": {
-    "name": "Kigzag",
-    "logo": "/assets/images/logo.png"
+    "name": "Crezalo",
+    "logo": "/assets/images/Crezalo-onlybird-transparent.png"
   },
   "navigation": [{
       "name": "Product",
@@ -29,11 +29,11 @@
     "img": "/assets/images/t2.jpg",
     "primaryAction": {
       "text": "Become A Creator",
-      "href": "https://app.kigzag.com/"
+      "href": "crezalo.com/about"
     },
     "secondaryAction": {
       "text": "Email us",
-      "href": "mailto:issaafakattan@gmail.com?subject=I like react landing page!"
+      "href": "mailto:customer@crezalo.com?subject=Hey, I would like to be a creator!"
     }
   },
   "waitlisturl": "/api/waitlist",
@@ -135,22 +135,22 @@
   },
   "about": {
     "sections": [{
-        "name": "Something",
+        "name": "Team",
         "href": "#",
         "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
       },
       {
-        "name": "Something",
+        "name": "Careers",
         "href": "#",
         "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
       },
       {
-        "name": "Something",
+        "name": "Policy & Terms",
         "href": "#",
         "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
       },
       {
-        "name": "Something",
+        "name": "FAQ",
         "href": "#",
         "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
       }
@@ -159,7 +159,7 @@
       "github": "",
       "twitter": "",
       "linkedin": "",
-      "email": "mailto:kigzagpvtltd@gmail.com?subject=I like react landing page!"
+      "instagram": ""
     }
   }
 }
