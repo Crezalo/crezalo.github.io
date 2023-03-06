@@ -1,0 +1,12 @@
+{
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/careers": "pages/careers.html",
+  "/faq": "pages/faq.html",
+  "/": "pages/index.html",
+  "/privacypolicy": "pages/privacypolicy.html",
+  "/team": "pages/team.html",
+  "/termsofservice": "pages/termsofservice.html",
+  "/_error": "pages/_error.js",
+  "/404": "pages/404.html"
+}
