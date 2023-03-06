@@ -10,10 +10,15 @@
 
 a {
   @apply text-red-700;
+  cursor: pointer;
 }
 
 a:hover {
-  @apply border-b-2 border-red-700;
+  @apply border-b-2 border-blue-600;
+}
+
+.pointer {
+  cursor: pointer;
 }
 
 .content p {
