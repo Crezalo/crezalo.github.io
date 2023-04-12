@@ -730,7 +730,7 @@ video {
 }
 .text-secondary {
   --tw-text-opacity: 1;
-  color: rgba(44, 110, 161, var(--tw-text-opacity));
+  color: rgb(153, 123, 193, var(--tw-text-opacity));
 }
 .text-primary {
   --tw-text-opacity: 1;
@@ -909,7 +909,7 @@ a:hover {
 }
 .focus\:ring-secondary:focus {
   --tw-ring-opacity: 1;
-  --tw-ring-color: rgba(44, 110, 161, var(--tw-ring-opacity));
+  --tw-ring-color: rgb(238, 109, 121 var(--tw-ring-opacity));
 }
 @media (min-width: 640px) {
   .sm\:mx-auto {
