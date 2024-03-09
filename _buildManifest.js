@@ -1,15 +1,1 @@
-self.__BUILD_MANIFEST = {
-    __rewrites: {
-        beforeFiles: [],
-        afterFiles: [],
-        fallback: []
-    },
-    "/": ["static/chunks/587-dc72283da84984f3.js", "index-992d456c5906092c.js"],
-    "/_error": ["_error-2280fa386d040b66.js"],
-    "/careers": ["careers-84dee30af3acac31.js"],
-    "/faq": ["faq-0e219643b986904e.js"],
-    "/privacypolicy": ["privacypolicy-fb6eb1c12ea6b2a5.js"],
-    "/team": ["team-f1a903ba0abcfb7a.js"],
-    "/termsofservice": ["termsofservice-99ab7f4c3a0b7424.js"],
-    sortedPages: ["/", "/_app", "/_error", "/careers", "/faq", "/privacypolicy", "/team", "/termsofservice"]
-}, self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB();
+self.__BUILD_MANIFEST=function(s){return{__rewrites:{beforeFiles:[],afterFiles:[],fallback:[]},"/":["static/chunks/963-7d41802608eeaced.js",s,"static/chunks/pages/index-ca1d48d12298077f.js"],"/_error":["static/chunks/pages/_error-2280fa386d040b66.js"],"/careers":[s,"static/chunks/pages/careers-02118ad0fd7095ba.js"],"/faq":[s,"static/chunks/pages/faq-979c738b6392a50b.js"],"/privacypolicy":[s,"static/chunks/pages/privacypolicy-7b9997bb33e25ad1.js"],"/team":[s,"static/chunks/pages/team-2e12425facf1735b.js"],"/termsofservice":[s,"static/chunks/pages/termsofservice-7889354f90297a6e.js"],sortedPages:["/","/_app","/_error","/careers","/faq","/privacypolicy","/team","/termsofservice"]}}("static/chunks/201-96dbb34bb3684c04.js"),self.__BUILD_MANIFEST_CB&&self.__BUILD_MANIFEST_CB();
