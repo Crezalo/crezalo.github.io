@@ -2196,7 +2196,8 @@
               updateOrInsert: cn,
             }
           );
-        var fn = "\t\n\v\f\r                　\u2028\u2029\ufeff",
+        var fn =
+            "\t\n\v\f\r &nbsp;   &ensp;&emsp;     &thinsp;&hairsp;  　\u2028\u2029\ufeff",
           ln = "[" + fn + "]",
           hn = RegExp("^" + ln + ln + "*"),
           pn = RegExp(ln + ln + "*$"),
@@ -4833,7 +4834,11 @@
           ee("String", "startsWith");
         var Ou = function (t) {
             return o(function () {
-              return !!fn[t]() || "​᠎" != "​᠎"[t]() || fn[t].name !== t;
+              return (
+                !!fn[t]() ||
+                "&ZeroWidthSpace;᠎" != "&ZeroWidthSpace;᠎"[t]() ||
+                fn[t].name !== t
+              );
             });
           },
           Ru = vn.start,
@@ -14141,32 +14146,14 @@
         },
       ]);
     </script>
-    <script
-      src="main-71f50302c37e2e2a.js"
-      defer=""
-    ></script>
-    <script
-      src="_app-3b6b0c21c2919325.js"
-      defer=""
-    ></script>
+    <script src="main-71f50302c37e2e2a.js" defer=""></script>
+    <script src="_app-3b6b0c21c2919325.js" defer=""></script>
     <script src="963-7d41802608eeaced.js" defer=""></script>
-    <script
-      src="201-96dbb34bb3684c04.js"
-      defer=""
-    ></script>
+    <script src="201-96dbb34bb3684c04.js" defer=""></script>
     <script src="index-ca1d48d12298077f.js" defer=""></script>
-    <script
-      src="_buildManifest.js"
-      defer=""
-    ></script>
-    <script
-      src="_ssgManifest.js"
-      defer=""
-    ></script>
-    <script
-      src="_middlewareManifest.js"
-      defer=""
-    ></script>
+    <script src="_buildManifest.js" defer=""></script>
+    <script src="_ssgManifest.js" defer=""></script>
+    <script src="_middlewareManifest.js" defer=""></script>
     <script type="text/javascript" defer="">
       (self.__BUILD_MANIFEST = {
         __rewrites: {
@@ -14205,6 +14192,114 @@
       self.__MIDDLEWARE_MANIFEST = [];
       self.__MIDDLEWARE_MANIFEST_CB && self.__MIDDLEWARE_MANIFEST_CB();
     </script>
+    <style data-emotion="css 6flbmm" data-s="">
+      .css-6flbmm {
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        width: 1em;
+        height: 1em;
+        display: inline-block;
+        fill: currentColor;
+        -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        font-size: 2.1875rem;
+      }
+    </style>
+    <style data-emotion="css 6flbmm" data-s="">
+      .css-6flbmm {
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        width: 1em;
+        height: 1em;
+        display: inline-block;
+        fill: currentColor;
+        -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        font-size: 2.1875rem;
+      }
+    </style>
+    <style data-emotion="css 6flbmm" data-s="">
+      .css-6flbmm {
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        width: 1em;
+        height: 1em;
+        display: inline-block;
+        fill: currentColor;
+        -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        font-size: 2.1875rem;
+      }
+    </style>
+    <style data-emotion="css 6flbmm" data-s="">
+      .css-6flbmm {
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        width: 1em;
+        height: 1em;
+        display: inline-block;
+        fill: currentColor;
+        -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        font-size: 2.1875rem;
+      }
+    </style>
+    <style data-emotion="css 6flbmm" data-s="">
+      .css-6flbmm {
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        width: 1em;
+        height: 1em;
+        display: inline-block;
+        fill: currentColor;
+        -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        font-size: 2.1875rem;
+      }
+    </style>
+    <style data-emotion="css 6flbmm" data-s="">
+      .css-6flbmm {
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        width: 1em;
+        height: 1em;
+        display: inline-block;
+        fill: currentColor;
+        -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        font-size: 2.1875rem;
+      }
+    </style>
   </head>
   <body>
     <div id="__next">
@@ -14298,7 +14393,7 @@
                               focus:ring-inset
                               focus:ring-secondary
                             "
-                            id="headlessui-popover-button-undefined"
+                            id="headlessui-popover-button-1"
                             type="button"
                             aria-expanded="false"
                           >
@@ -14415,10 +14510,7 @@
             />
           </div>
         </div>
-        <div
-          class="lazy-div"
-          style="opacity: 0; transform: translateX(-50px) translateZ(0)"
-        >
+        <div class="lazy-div" style="opacity: 1; transform: none">
           <section class="bg-background py-8" id="product">
             <div class="container max-w-5xl mx-auto m-8">
               <h1
@@ -14510,7 +14602,7 @@
               </div>
             </div>
           </section>
-          <canvas id="canvas" width="0" height="220"></canvas>
+          <canvas id="canvas" width="651" height="220"></canvas>
         </div>
         <div
           class="lazy-div"
@@ -14566,26 +14658,7 @@
                           text-tertiary
                         "
                       >
-                        <style data-emotion="css 6flbmm">
-                          .css-6flbmm {
-                            -webkit-user-select: none;
-                            -moz-user-select: none;
-                            -ms-user-select: none;
-                            user-select: none;
-                            width: 1em;
-                            height: 1em;
-                            display: inline-block;
-                            fill: currentColor;
-                            -webkit-flex-shrink: 0;
-                            -ms-flex-negative: 0;
-                            flex-shrink: 0;
-                            -webkit-transition: fill 200ms
-                              cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-                            transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1)
-                              0ms;
-                            font-size: 2.1875rem;
-                          }</style
-                        ><svg
+                        <svg
                           class="
                             MuiSvgIcon-root MuiSvgIcon-fontSizeLarge
                             text-secondary
@@ -14632,26 +14705,7 @@
                           text-tertiary
                         "
                       >
-                        <style data-emotion="css 6flbmm">
-                          .css-6flbmm {
-                            -webkit-user-select: none;
-                            -moz-user-select: none;
-                            -ms-user-select: none;
-                            user-select: none;
-                            width: 1em;
-                            height: 1em;
-                            display: inline-block;
-                            fill: currentColor;
-                            -webkit-flex-shrink: 0;
-                            -ms-flex-negative: 0;
-                            flex-shrink: 0;
-                            -webkit-transition: fill 200ms
-                              cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-                            transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1)
-                              0ms;
-                            font-size: 2.1875rem;
-                          }</style
-                        ><svg
+                        <svg
                           class="
                             MuiSvgIcon-root MuiSvgIcon-fontSizeLarge
                             text-secondary
@@ -14699,26 +14753,7 @@
                           text-tertiary
                         "
                       >
-                        <style data-emotion="css 6flbmm">
-                          .css-6flbmm {
-                            -webkit-user-select: none;
-                            -moz-user-select: none;
-                            -ms-user-select: none;
-                            user-select: none;
-                            width: 1em;
-                            height: 1em;
-                            display: inline-block;
-                            fill: currentColor;
-                            -webkit-flex-shrink: 0;
-                            -ms-flex-negative: 0;
-                            flex-shrink: 0;
-                            -webkit-transition: fill 200ms
-                              cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-                            transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1)
-                              0ms;
-                            font-size: 2.1875rem;
-                          }</style
-                        ><svg
+                        <svg
                           class="
                             MuiSvgIcon-root MuiSvgIcon-fontSizeLarge
                             text-secondary
@@ -14765,26 +14800,7 @@
                           text-tertiary
                         "
                       >
-                        <style data-emotion="css 6flbmm">
-                          .css-6flbmm {
-                            -webkit-user-select: none;
-                            -moz-user-select: none;
-                            -ms-user-select: none;
-                            user-select: none;
-                            width: 1em;
-                            height: 1em;
-                            display: inline-block;
-                            fill: currentColor;
-                            -webkit-flex-shrink: 0;
-                            -ms-flex-negative: 0;
-                            flex-shrink: 0;
-                            -webkit-transition: fill 200ms
-                              cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-                            transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1)
-                              0ms;
-                            font-size: 2.1875rem;
-                          }</style
-                        ><svg
+                        <svg
                           class="
                             MuiSvgIcon-root MuiSvgIcon-fontSizeLarge
                             text-secondary
@@ -14831,26 +14847,7 @@
                           text-tertiary
                         "
                       >
-                        <style data-emotion="css 6flbmm">
-                          .css-6flbmm {
-                            -webkit-user-select: none;
-                            -moz-user-select: none;
-                            -ms-user-select: none;
-                            user-select: none;
-                            width: 1em;
-                            height: 1em;
-                            display: inline-block;
-                            fill: currentColor;
-                            -webkit-flex-shrink: 0;
-                            -ms-flex-negative: 0;
-                            flex-shrink: 0;
-                            -webkit-transition: fill 200ms
-                              cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-                            transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1)
-                              0ms;
-                            font-size: 2.1875rem;
-                          }</style
-                        ><svg
+                        <svg
                           class="
                             MuiSvgIcon-root MuiSvgIcon-fontSizeLarge
                             text-secondary
@@ -14886,7 +14883,7 @@
               </div>
             </div>
           </div>
-          <canvas id="canvas" width="0" height="220"></canvas>
+          <canvas id="canvas" width="651" height="220"></canvas>
         </div>
         <div
           class="lazy-div"
@@ -15180,7 +15177,7 @@
           class="lazy-div"
           style="opacity: 0; transform: translateX(-50px) translateZ(0)"
         >
-          <canvas id="canvas" width="0" height="220"></canvas>
+          <canvas id="canvas" width="651" height="220"></canvas>
           <div
             id="about"
             class="mx-auto container xl:px-20 lg:px-12 sm:px-6 px-4 py-12"
@@ -15209,24 +15206,6 @@
                       hover:bg-border hover:text-primary
                       md:py-4 md:text-lg md:px-10
                     "
-                    ><style data-emotion="css 6flbmm">
-                      .css-6flbmm {
-                        -webkit-user-select: none;
-                        -moz-user-select: none;
-                        -ms-user-select: none;
-                        user-select: none;
-                        width: 1em;
-                        height: 1em;
-                        display: inline-block;
-                        fill: currentColor;
-                        -webkit-flex-shrink: 0;
-                        -ms-flex-negative: 0;
-                        flex-shrink: 0;
-                        -webkit-transition: fill 200ms
-                          cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-                        transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-                        font-size: 2.1875rem;
-                      }</style
                     ><svg
                       class="
                         MuiSvgIcon-root MuiSvgIcon-fontSizeLarge
@@ -15419,5 +15398,44 @@
         "scriptLoader": []
       }
     </script>
+
+    <script
+      src="https://www.googletagmanager.com/gtag/js?id=undefined"
+      data-nscript="afterInteractive"
+    ></script>
+    <script id="gtag-init" data-nscript="afterInteractive">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "undefined", {
+        page_path: window.location.pathname,
+      });
+    </script>
+    <script
+      async="true"
+      crossorigin="anonymous"
+      data-nscript="afterInteractive"
+    ></script>
+    <next-route-announcer
+      ><p
+        aria-live="assertive"
+        id="__next-route-announcer__"
+        role="alert"
+        style="
+          border: 0px;
+          clip: rect(0px, 0px, 0px, 0px);
+          height: 1px;
+          margin: -1px;
+          overflow: hidden;
+          padding: 0px;
+          position: absolute;
+          width: 1px;
+          white-space: nowrap;
+          overflow-wrap: normal;
+        "
+      ></p
+    ></next-route-announcer>
   </body>
 </html>
