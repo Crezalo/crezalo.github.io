@@ -424,10 +424,10 @@
                         className: "ribbon-1 left",
                         children: "ACQUIRED",
                       }),
-                      (0, r.jsx)("div", {
-                        className: "ribbon-1 right",
-                        children: "ACQUIRED",
-                      }),
+                      // (0, r.jsx)("div", {
+                      //   className: "ribbon-1 right",
+                      //   children: "ACQUIRED",
+                      // }),
                       (0, r.jsxs)("nav", {
                         className:
                           "relative flex items-center justify-between sm:h-10 lg:justify-start",
