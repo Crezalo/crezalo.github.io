@@ -4,6 +4,7 @@ import OndemandVideoIcon from "@mui/icons-material/OndemandVideo";
 import CastForEducationIcon from "@mui/icons-material/CastForEducation";
 import StorefrontIcon from "@mui/icons-material/Storefront";
 import SavingsOutlinedIcon from "@mui/icons-material/SavingsOutlined";
+import VideoCallOutlinedIcon from "@mui/icons-material/VideoCallOutlined";
 
 const Features = () => {
   const { features } = config;
@@ -49,8 +50,13 @@ const Features = () => {
                           fontSize="large"
                           className="text-secondary"
                         />
-                      ) : (
+                      ) : feature.name == "Tip" ? (
                         <SavingsOutlinedIcon
+                          fontSize="large"
+                          className="text-secondary"
+                        />
+                      ) : (
+                        <VideoCallOutlinedIcon
                           fontSize="large"
                           className="text-secondary"
                         />

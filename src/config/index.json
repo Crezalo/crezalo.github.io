@@ -49,6 +49,7 @@
           "Sell Premium Video Membership",
           "Sell Courses",
           "Sell Merchandise",
+          "Sell 1:1 Video Calls",
           "Receive Tips"
         ],
         "img": "/assets/images/product1.jpg"
@@ -61,7 +62,10 @@
           "Ecommerce",
           "UPI, Rupay and other Payment Integrations",
           "Shipping Provider Integration",
-          "Sales Analytics"
+          "Sales Analytics",
+          "CRM Tools: Email Marketing",
+          "Traffic Analytics & CRM Data Collection",
+          "Custom Themes"
         ],
         "img": "/assets/images/infrastructure.png"
       }
@@ -88,6 +92,11 @@
         "icon": "/assets/images/nextjs.svg"
       },
       {
+        "name": "1:1 Video Call",
+        "description": "Book 1:1 Video Call with to offer mentorships.",
+        "icon": "/assets/images/ts.png"
+      },
+      {
         "name": "Tip",
         "description": "Receive tip from your fan with a message.",
         "icon": "/assets/images/ts.png"
@@ -96,22 +105,25 @@
   },
   "pricing": {
     "title": "Pricing",
-    "extra": "14 Day Free Trial of Basic Plan, No Credit/Debit Card Needed",
+    "extra": "",
     "items": [
       {
         "name": "Free",
         "price": "₹0",
         "priceDetails": "/ month",
         "features": [
-          "Premium Videos",
-          "Sell Unlimited Courses",
-          "Sell Unlimited Merchandise",
+          "0% Revenue Sharing",
+          "Upto 10 Premium Videos",
+          "Upto 5 Courses",
+          "Upto 9 Merchandise",
+          "Free 1200 Min of 1:1 Video Calls",
           "Shipping Provider Integration",
           "Unlimited Tips with User Messages",
-          "Free 50 GB of storage",
-          "Free 500 hours of Video Views",
+          "₹2/GB for Extra Storage (Free 2GB Storage)",
+          "₹15/GB for Extra Bandwidth (Free 20GB Bandwidth)",
+          "₹0.5/min for Video Calls Beyond Free Tier",
           "Phone and Email support",
-          "15% Revenue Share",
+          "x",
           "x",
           "x"
         ]
@@ -121,35 +133,41 @@
         "price": "₹1500",
         "priceDetails": "/ month",
         "features": [
-          "Premium Videos",
-          "Sell 20 different Courses",
-          "Sell 40 different Merchandise",
+          "0% Revenue Sharing",
+          "Upto 50 Premium Videos",
+          "Upto 15 Courses",
+          "Upto 40 Merchandise",
+          "Free 3500 Min of 1:1 Video Calls",
           "Shipping Provider Integration",
           "Unlimited Tips with User Messages",
-          "Free 100 GB of storage",
-          "Free 1000 hours of Video Views",
-          "Phone and Email support",
-          "0% Revenue Sharing",
-          "x",
-          "x"
+          "Traffic Analytics & CRM Data Collection",
+          "Custom Themes",
+          "₹0.5/Email for CRM (Free 5000 Emails)",
+          "₹1.75/GB for Extra Storage (Free 2GB Storage)",
+          "₹10/GB for Extra Bandwidth (Free 20GB Bandwidth)",
+          "₹0.35/min for Video Calls Beyond Free Tier",
+          "Phone and Email support"
         ]
       },
       {
         "name": "Premium",
-        "price": "₹12000",
+        "price": "₹12500",
         "priceDetails": "/ month",
         "features": [
-          "Premium Videos",
-          "Sell Unlimited Courses",
-          "Sell Unlimited Merchandise",
+          "0% Revenue Sharing",
+          "Unlimited Premium Videos",
+          "Unlimited Courses",
+          "Unlimited Merchandise",
+          "Unlimited Video Calls",
           "Shipping Provider Integration",
           "Unlimited Tips with User Messages",
-          "Unlimited storage",
-          "Unlimited watch hours",
+          "Traffic Analytics & CRM Data Collection",
+          "Custom Themes (Complete Customizations)",
+          "₹0.35/Email for CRM (Free 35000 Emails)",
+          "₹1.5/GB for Extra Storage (Free 2GB Storage)",
+          "₹8/GB for Extra Bandwidth (Free 20GB Bandwidth)",
           "Phone and Email support",
-          "0% Revenue Sharing",
-          "Dedicated POC",
-          "Customizations"
+          "x"
         ]
       }
     ]
