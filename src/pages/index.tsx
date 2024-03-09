@@ -9,6 +9,7 @@ import MainHero from "../components/MainHero";
 import MainHeroImage from "../components/MainHeroImage";
 import Pricing from "../components/Pricing";
 import Product from "../components/Product";
+// import { display } from "@mui/system";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
             <MainHero />
           </div>
         </div>
+
         <MainHeroImage />
       </div>
       {/* <Canvas /> */}

@@ -41,6 +41,12 @@ const MainHero = () => {
         <p className="mt-3 text-secondary sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
           {mainHero.description}
         </p>
+        <p
+          className="mt-3 text-secondary sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
+          style={{ color: "goldenrod" }}
+        >
+          {mainHero.acquisation}
+        </p>
         {/* Join Waitlist */}
         {/* {hasSubmitted ? (
           <div className={styles.formWrapper}>
@@ -69,7 +75,7 @@ const MainHero = () => {
             {error ? <div className={styles.error}>{error}</div> : null}
           </form>
         )} */}
-        <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+        {/* <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
           <div className="rounded-md shadow">
             <a
               href={mainHero.primaryAction.href}
@@ -79,7 +85,7 @@ const MainHero = () => {
               {mainHero.primaryAction.text}
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     </main>
   );

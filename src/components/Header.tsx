@@ -24,6 +24,8 @@ const Menu = () => {
 
       <Popover>
         <div className="relative pt-6 px-4 sm:px-6 lg:px-8">
+          <div className="ribbon-1 left">ACQUIRED</div>
+          <div className="ribbon-1 right">ACQUIRED</div>
           <nav
             className="relative flex items-center justify-between sm:h-10 lg:justify-start"
             aria-label="Global"

@@ -33,3 +33,69 @@ a:hover {
   width: "100px";
   height: "100px";
 }
+
+.ribbon-1 {
+  position: fixed;
+  background: #08769b;
+  color: rgb(255, 216, 119);
+  font-weight: bold;
+  box-shadow: 0 0 0 999px #08769b;
+  clip-path: inset(0 -100%);
+}
+.left {
+  inset: 0 auto auto 0;
+  transform-origin: 100% 0;
+  transform: translate(-29.3%) rotate(-45deg);
+}
+.right {
+  inset: 0 0 auto auto;
+  transform-origin: 0 0;
+  transform: translate(29.3%) rotate(45deg);
+}
+
+.hold {
+  width: 430px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.sell {
+  width: 220px;
+  line-height: 50px;
+  height: 50px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  float: left;
+  font-weight: 700;
+}
+
+.word {
+  /* width: 210px; */
+  width: 100vw;
+  height: 50px;
+  float: left;
+  overflow: hidden;
+  text-align: center;
+}
+
+.holder {
+  /* width: 200px; */
+  height: 200px;
+  text-align: center;
+  -webkit-animation: holder 8s none infinite;
+}
+
+.holder div {
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 50px;
+  overflow: hidden;
+  box-sizing: border-box;
+  -webkit-animation: yo 2s none infinite;
+  color: rgb(255, 210, 97);
+  background-color: rgba(47, 47, 253, 0.879);
+}
