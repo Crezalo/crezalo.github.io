@@ -7,13 +7,13 @@
       "index-ca1d48d12298077f.js",
     ],
     "/_error": ["_error-2280fa386d040b66.js"],
-    "/careers": [s, "careers-02118ad0fd7095ba.js"],
-    "/faq": [s, "faq-979c738b6392a50b.js"],
+    "/careers": ["careers-02118ad0fd7095ba.js"],
+    "/faq": ["faq-979c738b6392a50b.js"],
     "/privacypolicy": [
       s,
       "privacypolicy-7b9997bb33e25ad1.js",
     ],
-    "/team": [s, "team-2e12425facf1735b.js"],
+    "/team": ["team-2e12425facf1735b.js"],
     "/termsofservice": [
       s,
       "termsofservice-7889354f90297a6e.js",
